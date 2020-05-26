@@ -3,6 +3,7 @@
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -10,7 +11,27 @@ nav {
   height: 80px;
   background-color: $prim-blue;
   color: white;
-  font-family: $nav-font;
+  font-family: $logo-font;
   font-size: 30px;
-  padding-left: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  height: 100%;
+  font-family: $button-font;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.nav-buttons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+}
+
+.nav-buttons div:hover {
+  background-color: $prim-blue-hover;
 }
