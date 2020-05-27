@@ -16,9 +16,11 @@
     <link rel="stylesheet" href="/assets/css/nav.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/about.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/projects.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/contact.css" type="text/css">
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf5bfaeaa4.js" crossorigin="anonymous"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/assets/scripts/project-hover.js"></script>
@@ -29,22 +31,23 @@
       <span>Josh Lampen</span>
       <ul class="nav-buttons">
         <li><a href="#top">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#middle">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <a id="top"></a>
     <div id="about">
       <h1>Hi, I'm Josh</h1>
-      <p>a full-stack web developer</p>
+      <h2>a full-stack web developer</h2>
     </div>
+    <a id="middle"></a>
     <div id="projects">
       <a href="https://github.com/JoshLampen/tweeter" target="_blank" class="project-container">
         <img src="https://github.com/JoshLampen/portfolio/blob/master/assets/docs/tweeter.png?raw=true">
         <h2>Tweeter</h2>
         <div>
           <p class="p-hover"><</p>
-          <p class="p-static">jQuery, Ajax, CSS, HTML</p>
+          <p class="p-static">jQuery, Ajax, CSS/SASS, HTML</p>
           <p class="p-hover">/></p>
         </div>
       </a>
@@ -53,10 +56,28 @@
         <h2>TinyApp</h2>
         <div>
           <p class="p-hover"><</p>
-          <p class="p-static">Javascript, CSS, HTML</p>
+          <p class="p-static">Express, EJS, CSS, HTML</p>
           <p class="p-hover">/></p>
         </div>
       </a>
+    </div>
+    <div id="contact">
+      <h1>Contact Me</h1>
+      <h2>I look forward to hearing from you</h2>
+      <div>
+        <a href="mailto:joshlampen2@gmail.com" class="socials">
+          <i class="fas fa-paper-plane"></i>
+          <p>Email</p>
+        </a>
+        <a href="https://www.linkedin.com/in/joshlampen/" target="_blank" class="socials">
+          <i class="fab fa-linkedin"></i>
+          <p>LinkedIn</p>
+        </a>
+        <a href="https://github.com/joshLampen/" target="_blank" class="socials">
+          <i class="fab fa-github"></i>
+          <p>GitHub</p>
+        </a>
+      </div>
     </div>
   </body>
 </html>
