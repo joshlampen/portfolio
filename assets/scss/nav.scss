@@ -22,16 +22,18 @@ nav {
   font-family: $button-font;
   font-size: 20px;
   margin-right: 20px;
+  list-style: none;
 }
 
-.nav-buttons div {
+.nav-buttons a {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100px;
+  height: 100%;
   text-align: center;
 }
 
-.nav-buttons div:hover {
+.nav-buttons a:hover {
   background-color: $prim-blue-hover;
 }
